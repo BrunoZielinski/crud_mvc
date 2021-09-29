@@ -1,0 +1,104 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  color: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  scrollbar-width: thin;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  scrollbar-color: #888 #f1f1f1;
+  font-family: 'Poppins', sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  height: auto;
+  display: block;
+  max-width: 100%;
+}
+
+/* width */
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* GLOBAL */
+body {
+  color: #000;
+  padding: 0 1rem;
+}
+
+a.add-user {
+  color: #fff;
+  margin: 1rem 0;
+  border-radius: 8px;
+  display: inline-block;
+  background-color: #888;
+  padding: 0.375rem 0.625rem;
+}
+
+hr {
+  margin: 1rem 0;
+}
+
+table {
+  width: 100%;
+  margin: 1rem 0;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 1px solid #ccc;
+}
+
+table thead tr {
+  color: #fff;
+  background-color: #000;
+}
+
+table thead th {
+  padding: 6px 0;
+  font-weight: bold;
+}
+
+table tbody tr td:first-child {
+  text-align: center;
+}
+
+table tbody tr td:not(:first-child) {
+  padding: 6px;
+}
+
+table tbody tr td:last-child {
+  text-align: center;
+}
