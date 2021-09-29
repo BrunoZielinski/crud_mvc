@@ -4,7 +4,7 @@ namespace src;
 
 class Config
 {
-    const BASE_DIR = '/pj-cursos/b7web/PHP/padrao_mvc/crud_mvc/public';
+    const BASE_DIR = '/crud_mvc/public';
 
     const DB_DRIVER = 'mysql';
     const DB_HOST = 'localhost';
